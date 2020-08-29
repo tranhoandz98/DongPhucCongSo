@@ -1,0 +1,129 @@
+.header {
+background         : #f6f6f6;
+padding            : 20px 0;
+}
+.form-header{
+margin-top         : 17px;
+}
+
+.form-header input, .form-header button {
+border-radius      : 0;
+border             : none;
+}
+.form-header button{
+background         : #871e23;
+margin-left        : -3px;
+}
+.form-header input{
+padding            : 3px 50px 3px 10px;
+
+}
+.menu-header {
+border-radius      : 0;
+text-transform     : uppercase;
+border-bottom      : 4px        solid #871e23;
+margin-bottom      : 0
+}
+.menu-header ul li a{
+color              : #fff!important
+}
+.menu-header ul li : hover{
+background         : #871e23;
+}
+.header-active {
+background         : #871e23;
+}
+.banner {
+position           : relative;
+/* margin-bottom   : 20px; */
+}
+.banner img{
+width              : 100%;
+}
+.banner .ct-banner{
+position           : absolute;
+top                : 50%;
+transform          : translateY(-50%);
+color              : #fff;
+margin-left        : 10%;
+}
+.ct-banner .title{
+font-size          : 35px;
+line-height        : 45px
+}
+.ct-banner .dess{
+font-size          : 20px;
+line-height        : 25px
+}
+.bt-banner button{
+background         : #871e23;
+border             : none;
+border-radius      : 0;
+padding            : 8px 25px;
+font-size          : 18px;
+}
+.ct-banner div{
+margin-bottom      : 30px;
+}
+/* main */
+main{
+padding-top        : 20px;
+background         : #f6f6f6;
+}
+.main-left a{
+padding            : 0;
+border             : none;
+border-radius      : 0;
+}
+.under-text{
+border-bottom      : 1px solid black;
+}
+.title-item{
+padding            : 0;
+border             : 0;
+border-bottom      : 1px solid #871e23;
+background         : #f6f6f6;
+border-radius      : 0;
+margin-bottom      : 30px;
+font-size          : 18px
+}
+.product{
+margin-bottom      : 15px;
+}
+footer{
+border-top         : 2px solid #871e23;
+background         : #343434;
+padding            : 50px;
+}
+footer .dess{
+text-transform     : uppercase;
+color              : #fff;
+font-weight        :
+}
+footer .text{
+color              : #fff;
+}
+footer .text i{
+margin-right       : 10px
+}
+footer .left p{
+margin             : 0;
+line-height        : 30px
+}
+footer .back-top{
+position           : absolute;
+right              : 20px;
+bottom             : 10px;
+color              : #871e23;
+position           : fixed;
+cursor             : pointer
+}
+footer .back-top i{
+font-size          : 40px;
+}
+footer .back-top   : hover{
+color              : #1E4FEE;
+}
+footer .back-top div{
+font-size          : 18px
+}
